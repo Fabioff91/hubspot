@@ -4,6 +4,41 @@
     box-sizing: border-box;
 }
 
+.inline{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+.button-title{
+    padding: 10px 15px;
+    border: 1px solid #fe775a;
+    border-radius: 10px;
+    background-color: #fe775a;
+    color: white;
+}
+
+.button{
+    padding: 20px 25px;
+    border: 1px solid #fe775a;
+    border-radius: 10px;
+    background-color: #fe775a;
+    color: white;
+}
+
+.padding{
+    padding-left: 40px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+.title a,
+.first a{
+    margin-top: 50px;
+    display: inline-block;
+}
 /*common*/
 
 .clearfix::after{
@@ -16,10 +51,12 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.wrapper{
-    width: 80%;
-    margin: 0 auto;
+.container{
+    width: 100%;
+    border-bottom: 1px solid #32495b;
     padding: 25px;
+    background-color: #f4f9fd;
+    height: 75px;
 }
 
 .col{
@@ -27,12 +64,145 @@ body{
     float: left;
 }
 
+
+a{
+    text-decoration: none;
+}
+
+section img{
+    margin-top: 50px;
+}
+
+.image{
+    width: 45%;
+    text-align: center;
+}
+
 /*end common*/
 
-.menu-over{
-    background-color: #f4f9fd;
+.menu-over,
+.menu-bottom,
+.first-row{
+    width: 70%;
+    height: 100%;
+    margin: auto;
 }
 
 .col-right{
     text-align: right;
+}
+
+.col-left,
+.col-right{
+    height: 100%;
+}
+
+.english{
+    border-right: 1px solid black;
+}
+
+.search{
+    color: #00a4bd;
+}
+
+.login{
+    background-color: white;
+    color: #fe775a;
+}
+
+/* menu bottom */
+
+.container-bottom{
+    padding: 25px;
+    height: 75px;
+
+}
+
+.logo{
+    padding-left: 15px;
+    width: 20%;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/* end menu bottom */
+
+/* END HEADER */
+
+/* JUMBOTRON */
+.jumbotron{
+    height: 600px;
+    background-image: url(../img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position: 100% 25%;
+    background-size: 1250px;
+    background-color: #fef3ee;
+    
+}
+
+.banner{
+    width: 70%;
+    margin: auto;
+
+}
+
+.title{
+    width: 50%;
+}
+
+h1{
+    font-size: 60px;
+    color: #33475b;
+    padding: 50px 0;
+}
+
+.sub-button{
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.divisor{
+    height: 100px;
+    background-color: #afebe4;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
+    margin-top: -7px;
+
+
+}
+
+.first{
+    background-color: #f4f9fd;
+    height: 1000px;
+}
+
+.container-section{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+h4{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section p{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.first-row{
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 12px 0px #000000; 
+    box-shadow: 0px 0px 12px 0px #000000;
+}
+
+.first-row .col{
+    text-align: center;
 }
