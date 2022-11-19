@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*common*/
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+/*end common*/
+
+.menu-over{
+    background-color: #f4f9fd;
+}
+
+.col-right{
+    text-align: right;
+}
