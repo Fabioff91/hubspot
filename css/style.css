@@ -69,8 +69,9 @@ body{
     float: left;
     background-color: white;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 12px 0px #000000; 
-    box-shadow: 0px 0px 12px 0px #000000;
+    -webkit-box-shadow: 0px 0px 8px 0px #000000; 
+    box-shadow: 0px 0px 8px 0px #000000;
+    padding: 50px;
 }
 
 
@@ -99,6 +100,20 @@ section img{
     color: #fe775a;
     margin: 0 5px;
     
+}
+
+.col-symbol{
+    width: 25%;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 1%;
+    float: left;
+}
+
+.number{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
 }
 /*end common*/
 
@@ -207,6 +222,7 @@ h1{
     width: 70%;
     text-align: center;
     margin: auto;
+    height: 100%;
 }
 
 h4{
@@ -222,9 +238,10 @@ section p{
 .first-row{
     background-color: white;
     border-radius: 10px;
-    -webkit-box-shadow: 0px 0px 12px 0px #000000; 
-    box-shadow: 0px 0px 12px 0px #000000;
+    -webkit-box-shadow: 0px 0px 8px 0px #000000; 
+    box-shadow: 0px 0px 8px 0px #000000;
     margin-bottom: 100px;
+    padding: 50px;
 }
 
 .first-row .col-left{
@@ -247,4 +264,90 @@ section p{
 
 .dx{
     text-align: center;
+}
+
+.second-row{
+    padding: 50px;
+    height: 860px;
+}
+
+/* SECOND SECTION */
+
+.second{
+    background: linear-gradient( 90deg, rgba(0, 169, 185, 1) 0%, rgba(0, 187, 168, 1) 100% );
+    width: 100%;
+    height: 1000px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.second .p{
+    color: white;
+}
+
+.container-image{
+    width: 100%;
+    height: 80px;
+}
+.container-image img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.col-right p + h4{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.second-row .line{
+    margin-left: 0;
+}
+
+.second-row .button {
+    position: relative;
+    bottom: -200px;
+    margin: 0;
+    display: initial;
+}
+
+.second-row p{
+    height: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.symbol-row img{
+    width: 100%;
+    height: 50px;
+}
+
+.second p{
+    color: white;
+}
+
+.number-third{
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.third-col-left{
+    text-align: center;
+}
+
+.marchio img{
+    width: 22%;
+    padding: 0% 1%;
+}
+
+.row-third{
+    width: 70%;
+    height: 100%;
+    margin: auto;
 }
