@@ -64,6 +64,15 @@ body{
     float: left;
 }
 
+.coll{
+    width: 30%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 12px 0px #000000; 
+    box-shadow: 0px 0px 12px 0px #000000;
+}
+
 
 a{
     text-decoration: none;
@@ -78,6 +87,19 @@ section img{
     text-align: center;
 }
 
+.line {
+    border-bottom: 2px solid #32495b;
+    width: 50%;
+    margin-left: 50px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.icon{
+    color: #fe775a;
+    margin: 0 5px;
+    
+}
 /*end common*/
 
 .menu-over,
@@ -93,6 +115,7 @@ section img{
 }
 
 .col-left,
+.col-center,
 .col-right{
     height: 100%;
 }
@@ -177,7 +200,7 @@ h1{
 
 .first{
     background-color: #f4f9fd;
-    height: 1000px;
+    
 }
 
 .container-section{
@@ -201,8 +224,27 @@ section p{
     border-radius: 10px;
     -webkit-box-shadow: 0px 0px 12px 0px #000000; 
     box-shadow: 0px 0px 12px 0px #000000;
+    margin-bottom: 100px;
 }
 
-.first-row .col{
+.first-row .col-left{
+    text-align: center;
+}
+
+
+.row-right{
+    text-align: left;
+}
+
+.col-center{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.coll ul{
+    text-align: left;
+}
+
+.dx{
     text-align: center;
 }
